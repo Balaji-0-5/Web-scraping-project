@@ -2,10 +2,10 @@
       * A python script to collect Product details such as Name, Brand, Price and Discount for 
         Men's T-Shirts from Flipkart and store it as .db file i.e database file using sql 
 # What I Used
-    * I used **requests** to obtain data from the url provided.
-    * I used **BeautifulSoup** to parse the html file of the link provided.
-    * I used **argparse** to help enter arguments directly in command line.
-    * I used **sqlite3** to create .db file and store the data collected from the web page.
+    * I used 'requests' to obtain data from the url provided.
+    * I used 'BeautifulSoup' to parse the html file of the link provided.
+    * I used 'argparse' to help enter arguments directly in command line.
+    * I used 'sqlite3' to create .db file and store the data collected from the web page.
 
 # How to run
     * To run the script enter "python scrapper.py --page_num_max 5 --dbname product_info.db" in terminal or shell.
