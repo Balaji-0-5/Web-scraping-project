@@ -27,7 +27,7 @@
 * `page_num_max` variable stores the number of pages we want to scrap.
 * `scraped_info_list` a list to collect product details.
 * A `for` loop to execute code in all pages
-   * `req' variable requests the acess to URL.
+   * `req` variable requests the acess to URL.
    * `content` varable stores the contents of the URL.
    * `soup` variable parses the contents from the html file using BeautifulSoup.
    * `products` lists all the products in that page  from the soup variable
