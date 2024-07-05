@@ -8,7 +8,7 @@
 * I used __sqlite3__ to create .db file and store the data collected from the web page.
 
 # How to run
-* To run the script enter "python scrapper.py --page_num_max 5 --dbname product_info.db" in terminal or shell.
+* To run the script enter "python scraper.py --page_num_max 5 --dbname product_info.db" in terminal or shell.
 * In the above line "5" and "product_info.db" are arguments that can enterd as users wish.
 * Make sure dbname is unique. If any file with the same dbname already exists, then the code won't run.
  
